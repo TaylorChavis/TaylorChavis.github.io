@@ -1,0 +1,50 @@
+h1 {
+    font-family: "Fascinate Inline", system-ui;
+}
+
+
+body {
+    background-color: #FEFAE0;
+    text-align: center;
+    color: #606C38;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    
+}
+
+a {
+ color: #9e5a1f;
+ text-decoration: none;
+}
+
+a:hover {
+    color: #DDA15E;
+}
+
+main {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+  max-width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+footer {
+    color: #d27942;
+    
+}
+
+.fascinate-inline-regular {
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
