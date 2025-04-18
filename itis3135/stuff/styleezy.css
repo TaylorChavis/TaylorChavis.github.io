@@ -1,0 +1,38 @@
+h2 {
+    font-family: papyrus;
+    background-color: aqua;
+    color:aquamarine
+}
+
+h1{
+    font-family: Comic Sans MS;
+    border-radius: 250%;
+    margin: 5px 100px 2em 0;
+}
+
+a{
+    font-family: Times new roman;
+    margin-left: 50px;
+}
+
+ul{
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+p {
+    text-align: center;
+    font-size: 300%;
+    
+}
+
+h4 {
+    font-family: papyrus;
+    color: black;
+}
+
+img{
+    border-style: dotted dashed solid double;
+    border-width: 10px 5px 20px 15px;
+    border-color: red green blue orange;
+}
