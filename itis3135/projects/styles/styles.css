@@ -1,26 +1,45 @@
 body {
     margin: 0;
-    font-family: 'montserrat';
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    color:#3d4324;
+    color: #3d4324;
     background-color: #F2E9E4;
-}
-
-#navbar {
-    position: wrap;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 3.5rem;
+    color: #5b6538;
+    margin: 20px 0;
+  }
+  
+  h2 {
+    font-weight: 500;
+  }
+  
+  /* Navbar */
+  #navbar {
     top: 0;
     width: 100%;
     background: #373b25;
     padding: 5px 0;
-}
-
-#navbar a {
+  }
+  
+  #navbar a {
     color: #354106;
     text-decoration: none;
     font-size: 16px;
-}
-
-.button {
+  }
+  
+  .button {
     background-color: #F2E9E4;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -30,63 +49,44 @@ body {
     border-radius: 30px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
-    text-decoration: none; 
-    display: inline-block; 
-}
-
-.button:hover {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .button:hover {
     background-color: #b3aba7;
     transform: scale(1.05);
-    box-shadow: 0px 6px 10px rgba(0,0,0,0.15);
-}
-
-
-.soft-divider {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Welcome Section */
+  .welcome {
+    margin-bottom: 50px;
+  }
+  
+  .soft-divider {
     border: none;
     height: 1px;
-    background: #3d4324; /* soft olive tone with low opacity */
+    background: #3d4324;
     margin: 50px auto;
     width: 80%;
-}
-
-h1 {
-    font-family: Fleur De Leah;
-    font-size: 3.5rem;
-    color: #5b6538;
-    margin: 20px 0;
-}
-
-h2 {
-    font-weight: 500;
-}
-
-.welcome {
- margin-bottom: 50px;
-}
-
-footer {
+  }
+  
+  /* Footer */
+  footer {
     margin-top: 50px;
-    position: wrap;
     padding: 10px 0;
     width: 100%;
     background: #656D4a;
-
-}
-
-img {
-    width: 100%;
-  max-width: 350px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.next-button {
+  }
+  
+  /* Next Button */
+  .next-button {
     margin: 40px 0;
-}
-
-.next-button a {
+  }
+  
+  .next-button a {
     display: inline-block;
     background-color: #5b6538;
     color: #F2E9E4;
@@ -95,17 +95,84 @@ img {
     text-decoration: none;
     font-size: 16px;
     transition: background-color 0.3s ease;
-}
-
-.next-button a:hover {
+  }
+  
+  .next-button a:hover {
     background-color: #414b29;
-}
-
-@media (max-width: 600px) {
+  }
+  
+  /* About Page */
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E9E5DC;
+    padding: 50px;
+    gap: 30px;
+    position: relative;
+  }
+  
+  .about-image img {
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(20px);
+  }
+  
+  .about-text {
+    max-width: 600px;
+    text-align: left;
+    color: #5b6538;
+    transform: translateY(-20px);
+  }
+  
+  .about-text h2 {
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Portfolio */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .gallery-grid img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gallery-grid img:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
     #navbar ul {
-        flex-direction: column;
+      flex-direction: column;
     }
+  
     #navbar li {
-        margin: 5px 0;
+      margin: 5px 0;
     }
-}
+  
+    .about-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-text,
+    .about-image img {
+      transform: none;
+    }
+  }
+  
