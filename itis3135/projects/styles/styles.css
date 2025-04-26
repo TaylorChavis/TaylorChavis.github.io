@@ -186,7 +186,7 @@ body {
     margin: 20px 0;
 }
 
-.services-list, .bottom_contact a {
+.services-list a {
     color: #3d4324;
 }
 .bottom_contact {
@@ -198,6 +198,10 @@ body {
 .bottom_contact h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+}
+
+.bottom_contact a {
+    color: #3d4324;
 }
 
 
