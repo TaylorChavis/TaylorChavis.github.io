@@ -1,10 +1,70 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Stephan Salazar Photography Contact</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <body>
-    <h1>contact</h1>
-</body>
+    <header>
+        <nav id="navbar">
+            <a class="button" href="./">Home</a>
+            ||
+            <a class="button" href="about.html">About</a>
+            ||
+            <a class="button" href="portfolio.html">Portfolio</a>
+            ||
+            <a class="button" href="services.html">Services</a>
+            ||
+            <a class="button" href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Stephan Salazar Photography</h1>
+        <h2>Contact</h2>
+    <p id="description">Please fill out this survey for business inquieries.</p>
+    
+    <form id="survey-form">
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br>
+        <label id="email-label" for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br>
+        <label id="instagram-label" for="instagram">Instagram:</label>
+<input type="text" id="instagram" name="instagram" placeholder="Enter your Instagram" required>
+        <br>
+        <label for="dropdown">Estimated Budget:</label>
+        <select id="dropdown" name="price">
+            <option>$75-$149</option>
+            <option>$150-$299</option>
+            <option>$300+</option>
+        </select>
+        
+        <p>What service are you looking for?</p>
+        <label><input type="radio" name="recommend"> Headshot</label>
+        <label><input type="radio" name="recommend"> Event Photography</label>
+        <label><input type="radio" name="recommend"> Creative Project</label>
+        
+        <p>How did you hear about me?</p>
+        <label><input type="checkbox" name="features">Referral</label>
+        <label><input type="checkbox" name="features">Instagram</label>
+        <label><input type="checkbox" name="features">Google</label>
+        <label><input type="checkbox" name="features">Other</label>
+        <br>
+        <br>
+        <label for="comments">Additional Comments:</label>
+        <br>
+        <br>
+        <textarea id="comments" name="comments" placeholder="Enter your comments here..."></textarea>
+        <br>
+        <button id="submit" type="submit">Submit</button>
+    </form>
+    </main>
+    <footer>
+        <p>Stephan Salazar Photography&copy; 2025 </p>
+    </footer>
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    </body>
 </html>
