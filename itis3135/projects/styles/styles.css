@@ -159,7 +159,7 @@ body {
   
 
 /* Services */
-.services-section {
+.services-list {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
@@ -167,25 +167,28 @@ body {
     border-radius: 10px;
 }
 
-.services-section h3 {
+.services-list h3 {
     margin-top: 30px;
     color: #5b6538;
 }
 
-.services-section p {
+.services-list p {
     margin-top: 10px;
     line-height: 1.6;
     color: #3d4324;
     font-size: 16px;
 }
 
-.services-section hr {
+.services-list hr {
     border: none;
     height: 1px;
     background-color: #ccc;
     margin: 20px 0;
 }
 
+.services-list, .bottom_contact a {
+    color: #3d4324;
+}
 .bottom_contact {
     background-color: #E9E5DC;
     padding: 40px 0;
@@ -196,6 +199,7 @@ body {
     font-size: 2rem;
     margin-bottom: 20px;
 }
+
 
 
 /*Contact*/
