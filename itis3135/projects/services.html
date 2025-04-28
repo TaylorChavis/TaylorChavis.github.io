@@ -8,21 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <body>
     <header>
-        <nav id="navbar">
-            <a class="button" href="./">Home</a>
-            ||
-            <a class="button" href="about.html">About</a>
-            ||
-            <a class="button" href="portfolio.html">Portfolio</a>
-            ||
-            <a class="button" href="services.html">Services</a>
-            ||
-            <a class="button" href="contact.html">Contact</a>
-        </nav>
-        <h1>Stephan Salazar Photography</h1>
+        <div data-include="components/header.html"></div>
     </header>
-
     <main>
+        <h1>Stephan Salazar Photography</h1>
         <section class="services-intro">
             <h2>Capture Your Moments</h2>
             <p>Explore our diverse photography services tailored to your needs. Whether it's for an event, a personal shoot, or a professional portfolio, we're here to bring your vision to life.</p>
@@ -53,14 +42,15 @@
 
         <section class="bottom_contact">
             <h2>Interested in booking a session?</h2>
-            <p>Contact us today to schedule your shoot. We’d love to capture your most precious moments.</p>
+            <p>Contact me today to schedule your shoot. I’d love to capture your most precious moments.</p>
             <a href="contact.html" class="button">Contact Us</a>
         </section>
     </main>
 
     <footer>
-        <p>Stephan Salazar Photography&copy; 2025 </p>
+        <div data-include="components/footer.html"></div>
     </footer>
     <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <script src="scripts/HTMLInclude.min.js"></script>
     </body>
 </html>
