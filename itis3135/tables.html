@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Tables - ITIS 3135</title>
+  <link rel="stylesheet" href="styles/default.css" />
+</head>
+<body>
+
+  <header>   
+    <h1>HTML Tables</h1>
+        <div data-include="components/header.html"></div>    
+  </header>
+  
+  <main>
+    <div class="table">
+    
+
+    <h3>Tabular Data</h3>
+    <ol>
+      <li>Taylor Chavis - tchavi12@charlotte.edu - $10000000</li>
+      <li>Timmy Turner - timmyturner@gmail.com - $750000</li>
+      <li>Gumball Waterson - gumballwaterson@gmail.com - $50000</li>
+      <li>Mung Dahl - mungdabean@aol.com - $65000 </li>
+      <li>Andy Griffith - andyg@hotmail.com - $30000 </li>
+      <li>Steve Buscemi - stevebuscemi@gmail.com - $800000 </li>
+      <li>Stephan Salazar - stephansalazar91@gmail.com - $20000 </li>
+    </ol>
+
+    <h3>Data in Simple Table</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Taylor Chavis</td><td>tchavi12@charlotte.edu</td><td>$10000000</td></tr>
+        <tr><td>Timmy Turner</td><td>timmyturner@gmail.com</td><td>$750000</td></tr>
+        <tr><td>Gumball Waterson</td><td>gumballwaterson@gmail.com</td><td>$50000</td></tr>
+        <tr><td>Mung Dahl</td><td>mungdabean@aol.com/td><td>$65000</td></tr>
+        <tr><td>Andy Griffith</td><td>andyg@hotmail.com</td><td>$30000</td></tr>
+        <tr><td>Steve Buscemi</td><td>stevebuscemi@gmail.com</td><td>$800000</td></tr>
+        <tr><td>Stephan Salazar</td><td>stephansalazar91@gmail.com</td><td>$20000</td></tr>
+      
+        </tbody>
+    </table>
+    <h3>Data in Complex table</h3>
+    <figure>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Salary</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Taylor Chavis</td>
+                <td>tchavi12@charlotte.edu</td>
+                <td>$10000000</td>
+            </tr>
+            <tr>
+                <td>Timmy Turner</td>
+                <td>timmyturner@gmail.com</td>
+                <td>$750000</td>
+            </tr>
+            <tr>
+                <td>Gumball Waterson</td>
+                <td>gumballwaterson@gmail.com</td>
+                <td>$50000</td>
+            </tr>
+            <tr>
+                <td>Mung Dahl</td>
+                <td>mungdabean@aol.com</td>
+                <td>$65000</td>
+            </tr>
+            <tr>
+                <td>Andy Griffith</td>
+                <td>andyg@hotmail.com</td>
+                <td>$30000</td>
+            </tr>
+            <tr>
+                <td>Steve Buscmei</td>
+                <td>stevebuscemi@gmail.com</td>
+                <td>$800000</td>
+            </tr>
+            <tr>
+                <td>Stephan Salazar</td>
+                <td>stephansalazr91@gmail.com</td>
+                <td>$20000</td>
+            </tr>
+        </tbody>
+      </table>
+    </figure>
+    </div>
+  </main>
+
+  <footer>
+        <div data-include="components/footer.html"></div>
+  </footer>
+  <a href="https://validator.w3.org/">Validate HTML</a> 
+  <a href="https://jigsaw.w3.org/css-validator/">Validate CSS</a>
+  <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+  <script src="scripts/HTMLInclude.min.js"></script>
+</body>
+</html>
