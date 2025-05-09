@@ -76,3 +76,8 @@ th {
 td:nth-child(3) { 
   text-align: right; 
 }
+
+
+.row, .column {
+  box-sizing: border-box;
+}
